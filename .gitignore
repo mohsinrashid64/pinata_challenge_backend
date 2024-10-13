@@ -1,0 +1,94 @@
+# Generic .gitignore for the entire project and its subdirectories
+
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# Node.js dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Python virtual environment
+.venv/
+
+# Testing outputs
+coverage/
+
+# Operating system or IDE-specific files
+.DS_Store
+
+# Environment variables files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore additional files and folders as needed for your specific environment or tools
+
+
+*.db
+
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.pytest_cache/
+
+# Pipenv files
+Pipfile.lock
+
+# PyInstaller
+# Usually contains the environment used for the build
+build/
+dist/
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+*.db
+# Other Python files
+*.swp
+.mypy_cache/
+*.pyo
+
+# Python Eggs
+*.egg
+*.egg-info/
+.eggs/
+
+# C extensions
+*.so
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+/backend/instance
